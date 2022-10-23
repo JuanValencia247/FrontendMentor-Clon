@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontendMentor-Clon</title>
+    <link rel="icon" type="img/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header-container">
+        <nav class="nav-container">
+            <!-- <img class="nav-container__logo" src="./img/logo.png" alt=""> -->
+                <div class="nav-container__logo"></div>
+            <div class="nav-container__menu">
+                <div class="nav-container__content">
+                    <ul class="nav-container__content-ul ">                     
+                        <li><a href="#section">Desafios</a></li>
+                        <li><a href="#section">Soluciones</a></li>
+                        <li><a href="">Recurso</a></li>
+                        <li><a href="">Desbloquear</a><span>PRO</span></li>
+                    </ul>
+                </div>
+               
+                <div class="nav-container__content-avatar-icons">
+                    <div class="nav-container__content-icon">
+                        <a href="#"><i class='bx bx-bell'></i></a>
+                        <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                        <button class="nav-container__menu-icon">
+                            <i class='bx bx-menu'></i>
+                        </button>
+                    </div>
+                    <div class="nav-container__content-avatar">
+                        <a href="https://github.com/JuanValencia247" target="_blank"><img class="nav-container__content-avatar-img" src="./img/avatar.svg" alt="avatar"></a>
+                        <a class="nav-container__content-avatar-icon" href="https://github.com/JuanValencia247" target="_blank"><i class='bx bx-chevron-down '></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="nav-container-home">
+                <div class="nav-container-home__hogar">
+                    <p class="nav-container-home__hogar-h">Hogar</p>
+                </div>
+            <div class="nav-container-home__content-nav">
+                <ul >
+                    <li><a href="#" >Feeds</a></li>
+                    <li><a href="#section" >Mis retos</a></li>
+                    <li><a href="#" >Mi red</a></li>
+                    <li><a href="#">Mis marcadores</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="section"  class="main-container">
+            <input type="radio" id="TODOS" name="categorias" value="TODOS" checked>
+            <input type="radio" id="NOVATO" name="categorias" value="NOVATO">
+            <input type="radio" id="JUNIOR" name="categorias" value="JUNIOR">
+            <input type="radio" id="INTERMEDIO" name="categorias" value="INTERMEDIO">
+
+        <div class="main-container__filtrar">
+            <h2 class="main-container__title">Mis Retos</h2>
+            <div class="main-container__categoria">
+                <label for="TODOS">Todos</label>
+                <label for="NOVATO">Novato</label>
+                <label for="JUNIOR">Junior</label>
+                <label for="INTERMEDIO">Intermedio</label>
+            </div>
+        </div>
+
+        <section class="section-container">
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/page-fylo.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/FyloPageWithTwoColumn/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/FyloPageWithTwoColumn" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Página de inicio de Fylo con diseño de dos columnas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este proyecto es excelente si está comenzando a sentirse seguro con diseños un poco más complejos. La segunda sección con el área de testimonios proporcionará un buen desafío.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/page-huddle.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/CurvedSectionsPage/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/CurvedSectionsPage" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Página de inicio de grupo con secciones curvas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Practique el uso de pseudoelementos para diseñar extras y la propiedad de posición de CSS para las secciones con bordes curvos.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/tip-calculator.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Aplicación de calculadora de propinas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Esta pequeña aplicación es perfecta para cualquiera que esté empezando a familiarizarse con JavaScript. ¡La funcionalidad de la calculadora será una buena prueba!</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/expenses-chart.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de gráfico de gastos</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">En este desafío, creará un componente de gráfico de barras desde cero. Proporcionamos un archivo JSON local, por lo que puede agregar los datos del gráfico de forma dinámica si lo desea.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/interactive-card.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Formulario interactivo de detalles de la tarjeta</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este divertido proyecto será una excelente manera de practicar la manipulación de DOM y la validación de formularios, al mismo tiempo que pone a prueba sus habilidades de HTML y CSS.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="JUNIOR">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/page-huddle-landing.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Huddle página de inicio con bloques de características alternas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-2">2</h3>
+                        <h3 class="main-container__content-exp-dif-junior">Junior</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este desafío es perfecto si quieres practicar tus habilidades de diseño. Si está comenzando a tener un poco más de confianza al diseñar una página web, pruebe este proyecto.</p>
+                </div>
+            </div>
+
+            
+            <div class="main-container__content " data-category="INTERMEDIO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/ecommerce-product.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Página de productos de comercio electrónico</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-3">3</h3>
+                        <h3 class="main-container__content-exp-dif-intermedio">Intermedio</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">En este desafío, creará una hermosa página de producto. ¡Pondremos a prueba sus habilidades de JS con una galería de productos lightbox y una funcionalidad de carrito!</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/page-ping.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/PingSingleColumnPage/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/PingSingleColumnPage" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Ping columna única próximamente página</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este desafío es ideal para principiantes y ofrece la oportunidad de practicar la validación básica de formularios del lado del cliente.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/interactive-rating.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/InteractiveRatingComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/InteractiveRatingComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de calificación interactivo</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este es un proyecto pequeño y agradable para practicar el manejo de las interacciones del usuario y la actualización del DOM. ¡Perfecto para cualquiera que haya aprendido los conceptos básicos de JavaScript!</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/faq-accordion.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/FAQ--AccordionCard/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/FAQ--AccordionCard" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Preguntas frecuentes tarjeta de acordeón</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">En este desafío, construirá un acordeón de preguntas frecuentes. Este es un patrón frontal extremadamente común, por lo que es una gran oportunidad para practicar.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/intro-component.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/Sign-UpForm/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/Sign-UpForm" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de introducción con formulario de registro</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Practique la creación de un formulario de registro completo con validación del lado del cliente usando JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/base-apparel.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/BaseApparelComingSoonPage/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/BaseApparelComingSoonPage" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Próximamente página de ropa básica</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este diseño parece bastante simple, pero tiene algunos detalles interesantes que pondrán a prueba tus habilidades de CSS. También podrá practicar la validación básica de formularios.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/article-preview.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/ArticlePreviewComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/ArticlePreviewComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de vista previa del artículo</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                        <h3 class="main-container__content-exp-tecn-js">JS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Practique sus habilidades de diseño con este componente de vista previa del artículo. También es muy divertido jugar con las animaciones de los íconos para compartir.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/social-proof.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/SocialProofSection/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/SocialProofSection" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Sección de prueba social</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este proyecto pondrá a prueba tus habilidades de diseño. Si está empezando a tener confianza con Flexbox o Grid, ¡esto le proporcionará un buen desafío!</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/landing-huddle.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/HuddleLandingPage/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/HuddleLandingPage" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Página de destino de Huddle con una sola sección introductoria</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Un desafío perfecto para principiantes, este proyecto lo pondrá a trabajar con un diseño de dos columnas.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/single-price.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/SinglePriceGridComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/SinglePriceGridComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de cuadrícula de precio único</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">En este desafío, desarrollará el componente de precios de los diseños proporcionados. Esto es perfecto para principiantes y personas que quieren completar un desafío más pequeño.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/four-card.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/FourCardSection/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/FourCardSection" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Sección de funciones de cuatro cartas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Un buen desafío basado en el diseño para principiantes. Esto pondrá a prueba a cualquiera que sea nuevo en los diseños de varias columnas y receptivos.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content" data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/order-summary.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/OrderSummaryComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/OrderSummaryComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de resumen de pedido</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">¡Un proyecto perfecto para los novatos que están comenzando a ganar confianza con los diseños!</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/3-column-preview.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/3ColumnCardComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/3ColumnCardComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de tarjeta de vista previa de 3 columnas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este desafío es perfecto si recién estás comenzando. El cambio entre los diseños será una buena prueba si eres nuevo en la creación de proyectos receptivos.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/product-preview.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/ProductCardComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/ProductCardComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de tarjeta de vista previa del producto</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este desafío solo de HTML y CSS será perfecto para cualquier persona que comience a crear proyectos receptivos.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/profile-card.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/ProfileCardComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/ProfileCardComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de tarjeta de perfil</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este es un desafío perfecto para poner a prueba tus habilidades de diseño. El diseño de la tarjeta no cambia, por lo que también es ideal para aquellos que aún no se han sumergido en sitios web receptivos.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/stats-preview.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/StatsCardComponent/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/StatsCardComponent" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de tarjeta de vista previa de estadísticas</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Este es un gran pequeño desafío para ayudarlo a acostumbrarse a construir según un diseño. No hay JS en este proyecto, por lo que podrá concentrarse en sus habilidades de HTML y CSS.</p>
+                </div>
+            </div>
+
+            <div class="main-container__content " data-category="NOVATO">
+                <div class="main-container__content-imgage">
+                    <img class="main-container__content-imgage-img" src="./img/challenges/qr-code.jpg" alt="challenges">
+                    <div class="main-container__content-imgage-visit">
+                        <a href="https://juanvalencia247.github.io/PlantillaQr/" target="_blank"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i>Vista Previa</a>
+                        <a href="https://github.com/JuanValencia247/PlantillaQr" target="_blank"><i class='bx bxl-github' style='color:#fff'  ></i>Codigo</a>
+                    </div>
+                </div>
+                <div class="main-container__content-pro-desc">
+                    <h2 class="main-container__content-title">Componente de código QR</h2>
+                <div class="main-container__content-exp">
+                    <div class="main-container__content-exp-tecn">
+                        <h3 class="main-container__content-exp-tecn-html">HTML</h3>
+                        <h3 class="main-container__content-exp-tecn-css">CSS</h3>
+                    </div>
+                    <div class="main-container__content-exp-dif">
+                        <h3 class="main-container__content-exp-dif-1">1</h3>
+                        <h3 class="main-container__content-exp-dif-novato">Novato</h3>
+                    </div>
+                </div>
+                <p class="main-container__content-description">Un primer desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-container__menu">
+            <div class="footer-container__content1">
+                <img class="footer-container__content1-logo" src="./img/logo.png" alt="logo">
+                <div class="footer-container__content1-icons">
+                    <a href="https://twitter.com/JC10157489" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/juan-valencia-2a0174240/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/JuanValencia247" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-container__content2">
+                <div class="footer-container__content2-descripction">
+                    <h2 class="footer-container__content2-descripction-title">Estar al día</h2>
+                    <p class="footer-container__content2-descripction-paragraph">Con nuevos retos, soluciones destacadas, artículos seleccionados y nuestras últimas novedades</p>
+                    <div class="footer-container__content2-descripction-input">
+                        <input class="footer-container__content2-descripction-email" type="text" placeholder="email@ejemplo.com">
+                        <button class="footer-container__content2-descripction-button">Seguir</button>
+                    </div>
+                </div>
+
+                <div class="footer-container__content2-nav">
+                    <div class="footer-container__content2-descripction-nav">
+                        <h3 class="footer-container__content2-descripction-nav-title">MENTOR DE INTERFAZ</h3>
+                        <p>Desbloquear PRO</p>
+                        <p>Contáctenos</p>
+                        <p>Blog</p>
+                    </div>
+        
+                    <div class="footer-container__content2-descripction-nav">
+                        <h3 class="footer-container__content2-descripction-nav-title">EXPLORAR</h3>
+                        <p>Desafíos</p>
+                        <p>Soluciones</p>
+                        <p>Recursos</p>
+                    </div>
+        
+                    <div class="footer-container__content2-descripction-nav">
+                        <h3 class="footer-container__content2-descripction-nav-title">COMUNIDAD</h3>
+                        <p>Flojo</p>
+                        <p>Pautas</p>
+                        <p>Preguntas frecuentes</p>
+                    </div>
+        
+                    <div class="footer-container__content2-descripction-nav">
+                        <h3 class="footer-container__content2-descripction-nav-title">PARA COMPANIAS</h3>
+                        <p>Contratar desarrolladores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container__copy">
+            <p class="footer-container__copy-jc">&copy <a href="https://github.com/JuanValencia247" target="_blank">JC</a> 2022</p>
+            <div class="footer-container__copy-terminos">
+                <p>Términos</p>
+                <p>Política de cookies</p>
+                <p>Política de privacidad</p>
+                <p>Licencia</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

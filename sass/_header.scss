@@ -1,0 +1,256 @@
+@use "variables" as v;
+.header-container {
+  //Nav Principal
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid v.$Line;
+    padding: 10px 40px;
+
+    &__logo {
+      width: 282px;
+      height: 40px;
+
+      background-image: url("../img/logo.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &__menu {
+      display: flex;
+      align-items: center;
+    }
+    //
+    &__content {
+      z-index: 1;
+    }
+    &__content ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__content li {
+      margin: 0 5px;
+    }
+    &__content li a {
+      padding: 5px;
+      color: black;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 0.86em;
+      font-style: italic;
+      transition: 100ms;
+
+      &:hover {
+        border-bottom: 2px solid v.$Button;
+      }
+    }
+    &__content li span {
+      margin-left: 10px;
+      color: white;
+      font-size: 0.6em;
+      border-radius: 3px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      padding: 7px 8px;
+      background-color: v.$Pro;
+    }
+    &__content li i {
+      font-size: 1.4em;
+    }
+
+    // Avtar Icons
+    &__content-avatar-icons {
+      margin-left: 6px;
+      display: flex;
+      align-items: center;
+    }
+    //Icon
+    &__content-icon a i {
+      margin: 7px;
+      font-size: 1.4em;
+    }
+    // Button
+    &__menu-icon {
+      display: none;
+      background: none;
+    }
+
+    //Avatar
+    &__content-avatar {
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1;
+    }
+    &__content-avatar-img {
+      height: 40px;
+      width: 34px;
+      border-radius: 50%;
+      background-color: black;
+    }
+    &__content-avatar-icon {
+      margin-left: 5px;
+    }
+    &__content-avatar-icon i {
+      font-size: 1.7em;
+    }
+
+    @media (max-width: 830px) {
+      width: 375px;
+      padding: 0;
+      height: 50px;
+
+      &__logo {
+        width: 50px;
+        height: 50px;
+        background-image: url("../img/logo-mobil.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-right: 1px solid v.$Line;
+      }
+
+      //
+      &__content {
+        height: 100%;
+      }
+      &__content-ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 375px;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        background-color: v.$Body;
+        padding: 0px 20px;
+
+        left: 100%;
+      }
+      &__content li {
+        padding: 20px 0;
+        width: 330px;
+        border-bottom: 1px solid v.$Line;
+      }
+      &__content li a {
+        font-size: 0.81em;
+      }
+
+      // Avtar Icons
+      &__content-avatar-icons {
+        padding: 3px 5px;
+      }
+      //Icon
+      &__content-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__content-icon a i {
+        margin: 7px;
+        font-size: 1.4em;
+      }
+      // Button
+      &__menu-icon {
+        display: block;
+        align-items: center;
+      }
+      &__menu-icon i {
+        font-size: 3.5em;
+        cursor: pointer;
+      }
+
+      //Avatar
+      &__content-avatar {
+        width: 345px;
+        position: fixed;
+        left: 10px;
+        top: 290px;
+
+        padding: 10px 10px;
+        border-bottom: 1px solid v.$Line;
+        background-color: v.$Body;
+        left: 100%;
+        &:hover {
+          border: none;
+        }
+      }
+
+      &__content-avatar-icon {
+        display: none;
+      }
+      .nav-menu_visible {
+        left: 0;
+      }
+    }
+  }
+
+  //Nav Secundario
+  .nav-container-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid v.$Line;
+
+    &__hogar {
+      height: 60px;
+      width: 110px;
+      margin-left: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-left: 1px solid v.$Line;
+      border-right: 1px solid v.$Line;
+    }
+    &__hogar-h {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    &__content-nav {
+      padding: 20px 65px;
+    }
+    &__content-nav ul {
+      display: flex;
+    }
+    &__content-nav li {
+      font-weight: 500;
+      margin: 0 10px;
+    }
+    &__content-nav li a {
+      padding: 5px;
+      color: black;
+      font-weight: 500;
+      transition: 100ms;
+      &:hover {
+        border-bottom: 2px solid v.$Button;
+      }
+    }
+    @media (max-width: 830px) {
+      width: 375px;
+      height: 50px;
+
+      &__hogar {
+        height: 50px;
+        width: 80px;
+        margin-left: 15px;
+      }
+      &__hogar-h {
+        font-size: 0.87em;
+        letter-spacing: 1px;
+      }
+      &__content-nav {
+        padding: 0;
+      }
+
+      &__content-nav li {
+        margin: 0;
+      }
+      &__content-nav li a {
+        font-size: 0.8em;
+        color: v.$Text;
+      }
+    }
+  }
+}

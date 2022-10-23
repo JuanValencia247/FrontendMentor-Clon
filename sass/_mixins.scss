@@ -1,0 +1,14 @@
+@mixin tecnologia ($color) {
+    color: $color;
+    margin-right: 6px;
+    font-size: 1.2em;
+}
+
+@mixin dificultad ($bc: unset, $bor:unset) {
+    padding: 2px 8px;
+    font-size: .86em;
+    background-color: $bc;
+    border: 1px solid  $bor;
+    display: flex;
+    align-items: center;
+}

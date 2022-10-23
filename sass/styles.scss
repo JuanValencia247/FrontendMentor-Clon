@@ -1,0 +1,10 @@
+@use 'variables' as v;
+@use 'resets';
+@use 'header';
+@use 'main';
+@use 'footer';
+
+body{
+    font-family: v.$Font;    
+    background-color: v.$Body;
+}
